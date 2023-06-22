@@ -41,6 +41,14 @@ elif(num1==num3>num2):
     big=num1
     meduim=num3
     small=num2
+elif(num1==num2>num3):
+    big=num1
+    meduim=num2
+    small=num3
+elif(num2==num3>num1):
+    big=num2
+    meduim=num3
+    small=num1
 else:
     print("error not valid")
 print(big,meduim,small)
